@@ -7,7 +7,6 @@ import { router } from "./routes";
  * @returns the started server listening to port PORT
  */
 export const start = () => {
-  console.log("PORT: ", process.env.PORT);
   const app = express();
 
   app
